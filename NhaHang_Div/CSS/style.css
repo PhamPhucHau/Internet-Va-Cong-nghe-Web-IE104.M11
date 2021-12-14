@@ -1,0 +1,161 @@
+#Table_01 {
+	
+	width:1400px;
+	height:660px;
+}
+*{ margin:0;
+padding:0;
+}
+@font-face {
+  font-family: FontNhaHang;
+  src:url(../fonts/Roboto-Regular.ttf);
+}
+#Logo {
+	
+	float:left;
+	width:157px;
+	height:95px;
+}
+
+#Navigation {
+	float:left;
+	width:1243px;
+	height:95px;
+	
+}
+#Navigation a{
+	display:inline-block;
+	padding:15px 30px;
+	color:#ff4302;
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow:2px 2px 2px rgba(70,40,1,0.35);
+	font-size:30px;
+	flex:1;
+	border-bottom: 3px solid transparent;	}
+#Navigation a:hover{
+	background-color:#ff4302;
+	color:white;
+	transition:0.25s;
+	transform:scale(1.1);
+	
+ border-bottom: 3px solid black;
+	}
+	
+#Navigation a:active{
+	background-color:#ff4302;
+	color:white;
+	text-decoration:underline;
+	
+ border-bottom: 3px solid black;
+	}
+#container1{
+	display:flex;
+	width:100%;}
+	
+#banner {
+	float:left;
+	width:157px;
+	height:442px;
+	flex:1;
+}
+
+#content {
+	float:right;
+	background:white;
+	width:1213px;
+	padding:5px
+	flex:4;
+}
+
+#logo-footer {
+	float:left;
+	width:158px;
+	height:123px;
+
+}
+
+#footer {
+	clear:both;
+	width:1400px;
+	display:flex;
+	background:url(../images/footer1.gif) no-repeat ;
+	background-size:cover;
+}
+body{
+	background-color; 
+	font-family:Fontnhahang; }
+#container{
+	width:1400px;
+	margin:auto}
+.colfooter{
+	float:left;
+	padding:0px;
+	width:310px;
+	flex:1;
+	
+	
+}
+.colfooter h3{ text-align:left;margin-left:10px;
+padding:5px; }
+.colfooter ul{
+	list-style:none;
+	}
+.colfooter ul,li{
+	display:inline;
+	text-align:left;
+	margin:0;
+	padding:3px;
+	}
+.colfooter a{
+	text-align:left;
+	display:block;
+	text-decoration:none;
+	color:gray;
+	margin-left:10px;
+}
+.colfooter a:hover{
+	color:red;
+	text-decoration:underline;
+	
+}
+.colfooter img{
+	display:inline;
+	
+}
+#tablegiohang tr td,th{ width:100px; 
+text-align:center;
+	}
+#tablegiohang input{
+	width:20px;
+	height:20px;
+	text-align:center;
+	-moz-box-sizing: content-box; /* or `border-box` */
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;}
+	#tablegiohang ul,li{
+		display:inline-block;
+		float:left
+	}
+	
+.fa-trash-alt:hover{
+	color:red;}
+	
+#tablegiohang button{
+	
+	 cursor:pointer;}
+#khuvucgiohang{
+	float:left;
+	width:900px;}
+#khuvucthanhtoan{width:300px;
+float:right;}
+#btnthanhtoan{
+	padding:10px 40px;
+	background-color:#ff424e;
+	border-radius:5px;
+	}
+#btnthanhtoan:hover{
+	
+	background-color:#ff0f1e;
+	border-radius:5px;
+	}

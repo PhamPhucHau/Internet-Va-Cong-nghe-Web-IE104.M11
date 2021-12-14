@@ -1,0 +1,97 @@
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Nhà hàng HB</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- Save for Web Styles (Templatepsd.psd) -->
+<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+<link rel="shortcut icon" type="image/x-icon" href="../images/favicon1.ico">
+<link rel="stylesheet" type="text/css" href="../CSS/Carosel.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="../JS/jquery.velocity.min.js"></script>
+<script type="text/javascript" src="../JS/jquery.touchSwipe.min.js"></script>
+
+<script src="../JS/bgcarousel.js" type="text/javascript">
+
+/***********************************************
+* Background Image Carousel- (c) Dynamic Drive (www.dynamicdrive.com)
+* Please keep this notice intact
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+</script>
+
+<!-- End Save for Web Styles -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body >
+<!-- Save for Web Slices (Templatepsd.psd) -->
+<div id="container">
+<div id="Table_01">
+	<div id="Logo">
+		<a href="../index.html"> <img src="../images/logo.png" width="157" height="95"></a>
+	</div>
+	<div id="Navigation">
+		 <a href="../index.html" >Trang chủ</a>
+    <a href="../khuyenmai.html" >Khuyến Mãi</a>
+    <a href="../location.html" >Thanh Toán</a>
+    <a href="../Menu.html" >Vận Chuyển</a>
+    <a href="../contact.html" >Góp Ý</a>
+        
+    <a href="../giohang.html" class="giohang" id="giohang" >
+        <img src="../images/GioHang.png" width="39" height="33" class="GioHang" id="anhgiohang" ><span class="textgiohangs"> Giỏ hàng</span></a>
+	</div>
+    <hr>
+    <p class="bgcarousel">&nbsp;</p>
+    <div id="container1">
+	<div id="banner">
+		<div id="mybgcarousel" class="bgcarousel"></div>
+       
+        <div id="mybgcarousel1" class="bgcarousel"></div>
+        
+   
+	</div>
+	<div id="content"><!-- TemplateBeginEditable name="noidung" -->noidung<!-- TemplateEndEditable --></div>
+    </div>
+	<div id="footer">
+	  <div id="logo-footer">
+		<img src="../images/logo_footer.jpg" width="158" height="123" alt="">
+	</div>
+		<div id="gioithieu" class="colfooter">
+        <h3>Giới thiệu</h3>
+        <ul>
+        <li><a href="#">Về chúng tôi</a></li>
+         <li><a href="#">Hệ thống cửa hàng</a></li>
+         </ul>
+        </div>
+        <div id="chinhsach" class="colfooter">
+        <h3>Chính sách</h3>
+        <ul>
+        <li><a href="#">Chính sách giao hàng</a></li>
+         <li><a href="#"><img src="../images/giaohang.png" width="22" height="20">Hướng dẫn thanh toán</a></li>
+         </ul>
+         </div>
+      <div id="lienlac" class="colfooter">
+        <h3>Liên lạc</h3>
+        <ul>
+        <li><a href="#">SĐT:0123456789</a></li>
+         <li><a href="#"><i class="fab fa-facebook"></i>Facebook</a></li>
+        </ul>
+        </div>
+        <div id="chungnhan" class="colfooter">
+          <h3>Chứng nhận</h3>
+        	<img src="../images/chungnhan.png" width="98" height="98"><img src="../images/dangky.png" width="210" height="97">
+        </div>
+
+	</div>
+</div>
+</div>
+<script type="text/javascript" src="../JS/snow.js"></script>
+<script type="text/javascript" src="../JS/javascript.js"></script>
+<!-- End Save for Web Slices -->
+</body>
+</html>
