@@ -33,7 +33,7 @@
 <div id="container">
 <div id="Table_01">
 	<div id="Logo">
-		<a href="../index.html"> <img src="../images/logo.png" width="157" height="95"></a>
+		<a href="../index.html"> <img src="../images/logo2.png" width="157" height="95"></a>
 	</div>
 	<div id="Navigation">
 		 <a href="../index.html" >Trang chủ</a>
@@ -43,7 +43,7 @@
     <a href="../contact.html" >Góp Ý</a>
         
     <a href="../giohang.html" class="giohang" id="giohang" >
-        <img src="../images/GioHang.png" width="39" height="33" class="GioHang" id="anhgiohang" ><span class="textgiohangs"> Giỏ hàng</span></a>
+        <i class="fas fa-shopping-cart"></i><span class="textgiohangs"> Giỏ hàng</span></a>
 	</div>
     <hr>
     <p class="bgcarousel">&nbsp;</p>
