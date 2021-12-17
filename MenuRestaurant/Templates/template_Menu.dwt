@@ -1,0 +1,46 @@
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>template_Menu_CK</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- Save for Web Styles (template_Menu_CK.psd) -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+<!-- End Save for Web Styles -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<!-- Save for Web Slices (template_Menu_CK.psd) -->
+<div id="Table_01">
+	<div id="Link-Menu">
+		<a href="#"><i id="homebutton" class="fas fa-home fa-2x"></i></a><br>
+      <div class="dropdown">
+  			<button class="dropbtn"><i class="fas fa-bars"></i></button>
+  			<div class="dropdown-content">
+    			<a href="../ThucUong.html">Thức Uống</a>
+    			<a href="../Banh.html">Bánh</a>
+    			<a href="../MonLau.html">Món Lẩu</a>
+                <a href="../MonNuong.html">Món Nướng</a>
+                <a href="../MonHap.html">Món Hấp</a>
+  			</div>
+		</div>
+	</div>
+	<div id="Header-Menu">
+		<img src="../images/Header_Menu.jpg" width="1200" height="140" alt="">
+	</div>
+	
+  <div id="content-Menu">
+	<!-- TemplateBeginEditable name="ContentMenu" -->
+    ContentMenu
+	<!-- TemplateEndEditable -->
+  </div>
+	<div id="Footer-Menu">
+		<img src="../images/Footer_Menu.jpg" width="1200" height="180" alt="">
+	</div>
+</div>
+<!-- End Save for Web Slices -->
+</body>
+</html>
