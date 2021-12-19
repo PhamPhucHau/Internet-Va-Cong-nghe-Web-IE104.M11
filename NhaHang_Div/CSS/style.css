@@ -133,21 +133,39 @@ text-align:center;
 #tablegiohang input{
 	width:20px;
 	height:20px;
+	position:inherit;
 	text-align:center;
 	-moz-box-sizing: content-box; /* or `border-box` */
     -webkit-box-sizing: content-box;
     box-sizing: content-box;}
-	#tablegiohang ul,li{
-		display:inline-block;
-		float:left
-	}
-	
+#tablegiohang ul{
+	list-style-type:none;
+		display:flex;
+	}	
+	#tablegiohang li{
+		flex:1;
+	}	
 .fa-trash-alt:hover{
 	color:red;}
-	
+.number {
+    position:relative;
+    top: -4px;
+    left: -5px;
+    z-index: 20;
+    background: #ea1c00;
+    color: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 18px;
+}
 #tablegiohang button{
-	
-	 cursor:pointer;}
+	 cursor:pointer;
+	 }
 #khuvucgiohang{
 	float:left;
 	width:900px;}
@@ -162,6 +180,38 @@ float:right;}
 	
 	background-color:#ff0f1e;
 	border-radius:5px;
+	}
+#makhuyenmai{
+	padding:12px 20px;
+	margin 8px 0;
+	border 2px solid gray;
+	border-radious:4px;}
+.muckhuyenmai .left,.right{
+	float:left;
+	display:inline-block;
+	border-radius:5px;
+	padding:10px
+	}
+.luuma{float:right;
+border:none;
+padding:4px;
+margin:4px;
+border-radius:3px;
+cursor:pointer;
+background:#017fff;
+color:white;
+}
+.right p{ margin-bottom:10px}
+#clear{
+	clear:both;}
+
+@keyframes float{
+  0%, 100%{
+    transform: translateY(0rem);
+  }
+  50%{
+    transform: translateY(1.5rem);
+  }
 }
 
 .Welcome {

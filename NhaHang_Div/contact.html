@@ -58,87 +58,24 @@
    
 	</div>
 	<div id="content"><!-- InstanceBeginEditable name="noidung" -->
-   		<div id="GH">	
-     <h1>Giỏ hàng</h1>
-    <div id="khuvucgiohang">
-    <table id="tablegiohang">
-    <tr>
-    <th  class="stt">STT</th>
-    <th>Hình ảnh</th>
-    <th class="sanpham">Sản phẩm</th>
-     <th class="dongia">Đơn giá</th>
-     <th>Số lượng</th>
-     <th>Thành tiền</th>
-     <th><i class="far fa-trash-alt"></i></th>
-     </tr>
-     <tr>
-     <td class="stt">1</td>
-     <td><img src="images/cafe.jpg" width="100" height="80"></td>
-     <td class="sanpham">Cà phê sữa</td>
-     <td id="dongia" class="dongia">25000</td>
-     <td>
-    <ul>
-    <li> <button id="giam"><img src="images/subtract.png" width="20" height="20"></button>
-	</li>
-    <li>
-      <input type="tel" id="soluong" value="1"/>
-    </li>
-     <li>
-     <button id="tang"><img src="images/plus.png" width="22" height="21"></button>
-     </li>
-     </ul>
-     </td>
-     <td id="thanhtien"></td>
-     <td><i class="far fa-trash-alt"></i></td>
-     </tr>
+	<link rel="stylesheet" type="text/css" href="CSS/contact.css">
+    
+    <h1>Góp ý của bạn về cửa hàng</h1>
+	<form id="thongtinlienlac">
+    <input type="text" placeholder="Nhập họ và tên của bạn" id="hovaten">
+     <label id="thongbaohoten"></label>
+    <input type="email" placeholder="Nhập email của bạn: VD: nguyenvana@gmail.com" id="email">
+     <label id="thongbaoemail"></label>
+    <input type="tel" placeholder="Nhập số điện thoại của bạn" id="sdt">
+     <label id="thongbaosdt" for"sdt"></label>
+     <hr>
+    <textarea rows="10" cols="50" placeholder="Góp ý của bạn về chúng tôi" id="gopy"></textarea>
+     <label id="thongbaogopy" ></label>
+     <br>
      
-    </table>
-    
-    </div>
-    <div id="khuvucthanhtoan">
-    <h1>Thông tin thanh toán</h1>
-    <div>
-    <div><h3>Mã Khuyến mãi</h3>
-    <input type="text" placeholder="Nhập mã khuyến mãi" id="makhuyenmai" >
-    </div>
-    
-	<div>
-    <h3>Thanh toán</h3>
-    <table>
-    <tr>
-    <td>
-    <p>Tạm tính:</p>
-    </td>
-    <td></td>
-    </tr>
-    <tr>
-    <td>
-    <p>Giảm giá</p>
-    
-    </td>
-    <td></td>
-    </tr>
-    <tr><td colspan="2"><hr></td></tr>
-    <tr>
-    <td>
-    <p>Tổng cộng</p>
-    </td>
-    <td>1234</td>
-    </tr>
-    
-    <tr>
-    <td colspan="2">
-    
-    <button id="btnthanhtoan" > Thanh Toán(<span id="soluong1">1</span>)</button>
-    
-    </td>
-    </tr>
-    </table>
-    </div>
-    </div>
-    </div>
-    </div>
-   <script type="text/javascript" src="JS/giohang.js"></script>
+    <button type="submit" id="gui">Gửi</button>
+    </form>
+	<script type="text/javascript" src="JS/contact.js"></script>
 	<!-- InstanceEndEditable --></div>
     </div>
 	<div id="footer">

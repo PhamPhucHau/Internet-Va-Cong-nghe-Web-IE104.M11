@@ -36,13 +36,15 @@
 		<a href="../index.html"> <img src="../images/logo2.png" width="157" height="95"></a>
 	</div>
 	<div id="Navigation">
-		 <a href="../index.html" >Trang chủ</a>
+	<a href="../index.html" >Trang chủ</a>
+    <a href="../Menu.html" >Menu</a>
     <a href="../khuyenmai.html" >Khuyến Mãi</a>
-    <a href="../location.html" >Thanh Toán</a>
-    <a href="../Menu.html" >Vận Chuyển</a>
+    
+    <a href="../vanchuyen.html" >Vận Chuyển</a>
     <a href="../contact.html" >Góp Ý</a>
         
     <a href="../giohang.html" class="giohang" id="giohang" >
+     <div class="number">1</div>
         <i class="fas fa-shopping-cart"></i><span class="textgiohangs"> Giỏ hàng</span></a>
 	</div>
     <hr>
@@ -55,7 +57,7 @@
         
    
 	</div>
-	<div id="content"><!-- TemplateBeginEditable name="noidung" -->noidung<!-- TemplateEndEditable --></div>
+	<div id="content"><!-- TemplateBeginEditable name="noidung" -->noidunga<!-- TemplateEndEditable --></div>
     </div>
 	<div id="footer">
 	  <div id="logo-footer">

@@ -1,0 +1,76 @@
+/* CSS Document */
+
+#vanchuyen {
+	height:100%;
+	background:white;)}
+#tenmanhinh img{
+	margin-left:auto;
+	position:relative;
+		}
+#tenmanhinh
+{
+	width:420px;
+	 height:109px;
+	 margin-left:auto;
+	 margin-right:auto;
+	}
+#icon{
+	float:left;
+	margin-left:20%;
+	
+	}
+#xegiaohang{
+	position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;;}
+  @keyframes example {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+}
+60% {
+    opacity: 1;
+    -webkit-transform: translateX(30px);
+    -ms-transform: translateX(30px);
+    transform: translateX(30px);
+}
+80% {
+    -webkit-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    transform: translateX(-10px);
+}
+100% {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+  }
+#anhxegiaohang{
+width:254px;
+ height:172px;
+ margin-left:auto;
+ margin-right:auto;
+}
+#vanchuyen h1{ text-align:center;
+font-weight:bold;}
+.chiphi{
+	width:30%;
+	padding:1%;
+	float:left;
+	margin:5px;
+	}
+.khoangcach{
+	color:white;
+	background:#e5203f;
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	
+	}
+.chiphi{
+	border:solid #e5203f 3px;
+	box-sizing:border-box;
+	}

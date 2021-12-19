@@ -1,0 +1,62 @@
+/* CSS Document */
+
+/*#muckhuyenmai #left,#right{
+	float:left;
+	border-radius:5px;
+	}
+	
+.luuma{float:right;
+border:none;
+padding:4px;
+margin:4px;
+border-radius:3px;
+}
+h1{color:red;
+font-size: 30px;
+  font-family: FontNhaHang;
+  color: red;);
+  font-weight: bold;
+  line-height: 0.083;
+  text-align: left;
+  text-shadow: 0px 7px 4.5px rgba(43, 42, 42, 0.56);
+  z-index: 2;
+  }
+  */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  float:right;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

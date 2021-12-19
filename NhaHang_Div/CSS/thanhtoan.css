@@ -1,0 +1,63 @@
+/* CSS Document */
+
+#thongtinthanhtoan input,textarea{
+	display:block;
+	width:100%;
+	border-radius:5px;
+	padding:12px 20px;
+	border:1px solid gray;
+	margin:10px 0px;
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#thongtinthanhtoan input:focus,textarea{
+	display:block;
+	width:100%;
+	border-radius:5px;
+	padding:12px 20px;
+	border:2px solid blue;
+	margin:10px 0px;
+	 outline: none;
+}
+#thongtinthanhtoan input::placeholder{
+	font-family:FontNhaHang;	
+	}
+#thongbaohoten{ color:red;}
+ button:disabled{
+	width:100px;
+	height:40px;
+	outline:none;
+	border:#999999 1px solid;
+	background: #cccccc;
+	color:white;
+	cursor: not-allowed;
+	}
+button{
+	width:100px;
+	height:40px;
+	outline:none;
+	border:red 1px solid;
+	background: white;
+	color:red;
+	font-family:FontNhaHang;
+	}
+ button:hover {
+	width:100px;
+	height:40px;
+	outline:none;
+	background: red;
+	transition:0.5s;
+	color:white;
+	}
+.clear{
+	clear:both;}
+.canphai{
+	text-align:right;
+	}
+#tongquanthanhtoan{
+	width:200px;}
+#tongquanthanhtoan {
+	margin-left:32%;
+	}
+#tongquanthanhtoan button {
+	padding:auto;
+	}

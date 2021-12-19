@@ -10,7 +10,8 @@ var object={
 	tang:document.getElementById("tang"),
 	soluong:document.getElementById("soluong"),
 	thanhtien:document.getElementById("thanhtien"),
-	dongia:document.getElementById("dongia")
+	dongia:document.getElementById("dongia"),
+	btnthanhtoan:document.getElementById("btnthanhtoan")
 	};
 
 object.tru.onclick=function(){
@@ -26,3 +27,4 @@ object.thanhtien=soluong.value*parseInt(dongia.innerText);
 document.getElementById("thanhtien").innerText=object.thanhtien;}
  object.thanhtien=soluong.value*parseInt(dongia.innerText);
 document.getElementById("thanhtien").innerText=object.thanhtien;
+object.btnthanhtoan.onclick=function(){document.location.href="thanhtoan.html";}
