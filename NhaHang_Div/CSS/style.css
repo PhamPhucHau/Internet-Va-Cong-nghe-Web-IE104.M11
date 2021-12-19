@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 #Table_01 {
 
 	width:1400px;
@@ -160,4 +162,158 @@ float:right;}
 	
 	background-color:#ff0f1e;
 	border-radius:5px;
-	}
+}
+
+.Welcome {
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.CauChao {
+	width: 50%;
+	font-family: 'Nunito', san-serif;
+	margin-top:10%;
+}
+
+.CauChao p {
+	margin: 10px 0;
+}
+
+.CauChao a {
+	text-decoration:none;
+	padding: 5px 10px;
+	background-color:green;
+	border-radius: 10px;
+	color:white;
+	margin-top:10px;
+}
+
+.box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.box-container .box{
+  flex:1 1 30rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border:.1rem solid rgba(0,0,0,.3);
+  cursor: pointer;
+  border-radius: .5rem;
+}
+
+.box-container .box .image{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+  position: absolute;
+  top:-100%; left:0;
+}
+
+.box-container .box .content{
+  text-align: center;
+  background:#fff;
+  padding:2rem;
+}
+
+.box-container .box .content img{
+  margin:1.5rem 0;
+}
+
+.box-container .box .content h3{
+  font-size: 20px;
+  color:#333;
+}
+
+.box-container .box .content p{
+  font-size: 1.6rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.box-container .box:hover .image{
+  top:0;
+}
+
+.box-container .box:hover .content{
+  transform: translateY(100%);
+}
+
+.special h2 {
+	margin: 20px 0;
+	color:red;
+}
+
+.about {
+	margin:20px 0;
+	font-family: 'Nunito', san-serif;
+	
+}
+
+.about h2 {
+	font-size: 28px;
+}
+
+.about-box {
+	background:url(../images/nguoigiaohang.png) right center no-repeat, #a80e0e;
+	background-size:contain;
+	display:flex;
+	color: white;
+	height: 50vh;
+	padding-top: 20px;
+}
+
+.box-left {
+	width:50%;
+}
+
+.formDK {
+	width:50%;
+}
+
+.formDK input {
+	width: 80%;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.formDK a {
+	padding: 5px 15px;
+	margin: 10px 0;
+	background-color: green;
+	color:white;
+	border:none;
+	border-radius: 10px;
+}
+
+.formDK a:hover {
+	background-color: red;
+}
+
+.box-left {
+	color: white;
+}
+
+.box-left p {
+	margin-left: 20px;
+}
+	
+.time {
+	margin: 20px 10px;
+	display:flex;
+}
+
+.icon {
+	padding: 10px;
+}
+
+.address {
+	margin: 20px 10px;
+	display: flex;
+}
+
+.about-box h3 {
+	font-size:24px;
+}
