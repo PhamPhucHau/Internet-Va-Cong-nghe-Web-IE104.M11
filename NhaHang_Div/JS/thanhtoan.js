@@ -5,9 +5,11 @@ var object={
 	thongbaosdt:document.getElementById("thongbaosdt"),
 	thongbaohoten:document.getElementById("thongbaohoten"),
 	diachi:document.getElementById("diachi"),
-	thongbaodiachi:document.getElementById("diachi"),
+	thongbaodiachi:document.getElementById("thongbaodiachi"),
 	gui:document.getElementById("gui"),
-	form:document.getElementById("thongtinthanhtoan")}
+	form:document.getElementById("thongtinthanhtoan"),
+	chontinh:document.getElementById("chontinh"),
+	chonhuyen:document.getElementById("chonhuyen")}
 
 object.hoten.onblur=function(){
 	if(hoten.value=="" || hoten.value==null)
@@ -55,7 +57,7 @@ object.sdt.onfocus=function(){
 //Dia chi
 
 object.diachi.onblur=function(){
-	if(diachi.value=="" || diachi.value==null)
+	if(object.diachi.value=="" || object.diachi.value==null)
 	{
 		thongbaodiachi.innerText="Địa chỉ không được phép để trống";
 		object.gui.disabled=true;
@@ -67,10 +69,10 @@ object.diachi.onfocus=function(){
 	object.thongbaodiachi.innerText="";
 	object.gui.disabled=false;}
 object.gui.onclick=function(){
-	var result="Họ và tên: " + object.hoten.value+"\n Số điện thoai: "+ object.sdt.value+"\n Địa chỉ: "+object.diachi.value;
+	var result="Đặt hàng thành công\nHọ và tên: " + object.hoten.value+"\n Số điện thoai: "+ object.sdt.value+"\n Tỉnh: "+ object.chontinh.options[object.chontinh.selectedIndex].text +object.sdt.value+"\n Huyện: "+ object.chonhuyen.options[object.chonhuyen.selectedIndex].text + "\n Thôn,Xã:  "+object.diachi.value;
 	alert(result); 
 	}
-	var diachi={
+	var diachi1={
 	tinh:document.getElementById('chontinh'),
 	huyen:document.getElementById("chonhuyen")
 }
@@ -95,7 +97,7 @@ var options =
 
 for(var i = 0, l = options.length; i < l; i++){
   var option = options[i];
-  diachi.tinh.options.add( new Option(option.text, option.value, option.selected) );
+  diachi1.tinh.options.add( new Option(option.text, option.value, option.selected) );
 }
 
 var dshuyen=
@@ -150,14 +152,14 @@ var dshuyen=
 ]
 ]
 chonhuyen()
-diachi.tinh.onchange=function(){
-	while (diachi.huyen.options.length) {
-    diachi.huyen.remove(0);
+diachi1.tinh.onchange=function(){
+	while (diachi1.huyen.options.length) {
+    diachi1.huyen.remove(0);
   }
 	chonhuyen();};
 function chonhuyen(){
-for(var i = 0, l = dshuyen[diachi.tinh.value].length; i < l; i++){
-   var option = dshuyen[diachi.tinh.value][i];
-  diachi.huyen.options.add( new Option(option.text, option.value, option.selected) );
+for(var i = 0, l = dshuyen[diachi1.tinh.value].length; i < l; i++){
+   var option = dshuyen[diachi1.tinh.value][i];
+  diachi1.huyen.options.add( new Option(option.text, option.value, option.selected) );
 }
 }
