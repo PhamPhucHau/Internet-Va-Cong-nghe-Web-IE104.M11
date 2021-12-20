@@ -57,100 +57,84 @@
    
 	</div>
 	<div id="content"><!-- InstanceBeginEditable name="noidung" -->
-	<link rel="stylesheet" type="text/css" href="CSS/thanhtoan.css">
-    <h1>Thanh Toán Đơn Hàng</h1>
-    <h3>Thông tin thanh toán</h3>
-	<form id="thongtinthanhtoan">
-    <input type="text"  placeholder="Nhập họ và tên " id="hoten">
-    <label id="thongbaohoten"></label>
-    <input type="tel" placeholder="Nhập số điện thoại" id="sdt">
-    <label id="thongbaosdt"></label>
-    <table>
-    <tr>
-    <td>
-    <label class="labelselect" >Chọn Tỉnh </label></td><td><select id="chontinh"> 
-          
-      </select>
-      <td>
-      </tr>
-      <tr>
-      <td>
-      <label class="labelselect">Chọn Huyện</label>
-      </td>
-      <td>
-     <select id="chonhuyen"></select>
-     </td>
-     </tr>
-     </table>
-    <textarea type="text" placeholder="Nhập thôn, xã" id="diachi"></textarea>
-     <label id="thongbaodiachi"></label>
-     
-     
-    </form>
-    <h3>Thông Tin Đơn Hàng</h3>
-     <div id="khuvucgiohang">
-    <table id="tablegiohang">
-    <tr>
-    <th  class="stt">STT</th>
-    <th>Hình ảnh</th>
-    <th class="sanpham">Sản phẩm</th>
-     <th class="dongia">Đơn giá</th>
-     <th>Số lượng</th>
-     <th>Thành tiền</th>
-     </tr>
-     <tr>
-     <td class="stt">1</td>
-     <td><img src="images/cafe.jpg" width="100" height="80"></td>
-     <td class="sanpham">Cà phê sữa</td>
-     <td id="dongia" class="dongia">25000</td>
-     <td>
-    	1
-     </td>
-     <td id="thanhtien">25000</td>
-     </tr>
+    <link rel="stylesheet" type="text/css" href="CSS/huongdanthanhtoan.css">
+	<div id="chinhsachthanhtoan">
+    <div id="gioithieuthanhtoan">
+    <img src="images/Huongdanthanhtoan.png" width="1250" height="420">
+    <h3>Trang nội dung mang đến cho quý khách hàng thông tin<br>
+hướng dẫn thanh toán khi mua hàng tại cửa hàng QH  </h3>
+	<a href="#navi" class="buttona"><i class="fas fa-greater-than"></i>Tìm hiểu thêm</a>
+</div>
+    <div id="navi">
+    <div class="khungquangcao">
+    <img src="images/ChuyenKhoan.png" width="326" height="169">
+    <br>
+    <a href="#thanhtoanchuyenkhoan" class="buttona"><i class="fas fa-greater-than"></i>Xem chi tiết</a>
+    </div>
+      <div class="khungquangcao">
+    <img src="images/tienmat.png" width="326" height="169">
+    <br>
+    <a href="#thanhtoantructiep" class="buttona"><i class="fas fa-greater-than"></i>Xem chi tiết</a>
+    </div>
     
-    </table>
+     <div class="khungquangcao">
+    <img src="images/Cod.png" width="326" height="169">
+    <br>
+
+    <a href="#thanhtoankhinhanhang" class="buttona"><i class="fas fa-greater-than"></i>Xem chi tiết</a>
+    </div>
+    </div>
+    <div id="thanhtoanchuyenkhoan">
+    
+    <div class="thongtintaikhoan">
+    <h2>Thanh Toán Chuyển Khoản</h2>s
+    <p>Quý khách hàng có thể thanh toán đơn hàng bằng cách chuyển khoản qua tài khoản của QH tại các ngân hàng dưới đây và liên hệ <span class="indam">Hotline 1800 6975</span> (miễn phí) để xác nhận thông tin.</p>
+    </div>
+    <div class="taikhoannganhang">
+    <div class="nganhang"><img src="images/ACB.png" width="90" height="90"></div>
+    <div class="taikhoanthanhtoan">
+    <h4>Ngân hàng Thương mại cổ phần Á Châu</h4>
+<p>Chủ tài khoản: Công ty TNHH Thương mại QH</p>
+<p>PGD Maximark Cộng Hoà - Chi nhánh Lê Văn Sỹ</p>
+<p>Số tài khoản: <span class="indam">1111 1268 6888</p>
+    </div>
+    </div>
+     <div class="taikhoannganhang">
+     <div class="nganhang"><img src="images/techcombak.png" width="90" height="90"></div>
+    <div class="taikhoanthanhtoan">
+    <h4>Ngân hàng Thương mại cổ phần Kỹ thương Việt Nam</h4>
+<p>Chủ tài khoản: Công ty TNHH Thương mại QH</p>
+<p>Chi nhánh Tân Bình</p>
+<p>Số tài khoản: <span class="indam">1903 6388 3400 16</span></p>
+    </div>
+    </div>
+    </div>
+    <div id="thanhtoantructiep">
+   <h2> Thanh Toán trực tiếp</h2>
+   <div>
+   <p>Quý khách hàng có thể đến trực tiếp cửa hàng để thanh toán bằng tiền mặt hoặc quẹt thẻ.</p>
+   <div class="map">
+            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.6477596126647!2d107.99647161491635!3d13.979559890200369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316c1f784412231b%3A0xcc425f49f2b4a5f7!2zTmjDoCBIw6BuZyBDxqFtIFF1w6o!5e0!3m2!1sen!2s!4v1639926278638!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+   </div>
+   </div>
+    <div id="thanhtoankhinhanhang">
+    
+    <h2>Thanh Toán Khi Nhận Hàng</h2>
+
+    <div id="noidungthanhtoantructiep">
+    <p>Khi quý khách hàng nhận hàng sẽ thanh toán tổng giá trị đơn hàng hoặc
+phần còn lại.</p>
+<br>
+<p>Quý khách sẽ thanh toán tại địa điểm nhận hàng cho nhân viên
+giao nhận của QH hoặc đơn vị vận chuyển mà QH sử dụng.</p>
+</div>
+<div id="anhthanhtoantienmat"><img src="images/thanhtoankhinhanhang.png" width="620" height="320"></div>
+     </div>
+    
+    
     
     </div>
-    <div class="clear"></div>
-    <hr>
-   
-    
-    <table id="tongquanthanhtoan">
-    <tr>
-    <td>
-    <h4>Tạm tính:</h4>
-    </td>
-    <td class="canphai">25000</td>
-    </tr>
-    <tr>
-    <td>
-    <h4>Giảm giá:</h4>
-    
-    </td>
-    <td class="canphai"><span id="sotiengiamgia">2500</td>
-    </tr>
-    <tr><td colspan="2"><hr></td></tr>
-    <tr>
-    <td>
-    <h4>Tổng cộng: </h4>
-    </td>
-    <td class="canphai">22,500</td>
-    </tr>
-    
-    <tr>
-    <td colspan="2">
-    <button type="submit" id="gui">Xác Nhận</button>
-    </td>
-    </tr>
-    </table>
-    
-    <div>
-    <p>
-    Chúng tôi sẽ gọi điện cho bạn để xác thực đơn hàng</p>
-    <p>Thời gian giao hàng dự kiến: 30 phút.</p>
-    </div>
-    <script type="text/javascript" src="JS/thanhtoan.js"></script>
 	
 	<!-- InstanceEndEditable --></div>
     </div>

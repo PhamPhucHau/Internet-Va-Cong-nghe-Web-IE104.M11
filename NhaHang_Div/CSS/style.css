@@ -3,7 +3,6 @@
 #Table_01 {
 
 	width:1400px;
-	height:660px;
 }
 *{ margin:0;
 padding:0;
@@ -60,7 +59,6 @@ padding:0;
 #banner {
 	float:left;
 	width:157px;
-	height:442px;
 	flex:1;
 }
 
@@ -68,7 +66,7 @@ padding:0;
 	float:right;
 	background:white;
 	width:1213px;
-	padding:5px
+	padding:5px;
 	flex:4;
 }
 

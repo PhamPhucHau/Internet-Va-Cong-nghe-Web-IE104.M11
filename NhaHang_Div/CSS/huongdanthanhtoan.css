@@ -1,0 +1,79 @@
+/* CSS Document */
+
+#gioithieuthanhtoan h3{
+	position:absolute;
+	left:250px;
+	top:350px;
+	}
+#gioithieuthanhtoan a{
+	position:absolute;
+	left:250px;
+	top:450px;
+	border-radius:20px;
+	}
+#gioithieuthanhtoan .chuyenkhoan{
+	width: 201.938px;
+    height: 140.763px;
+    top: 17px;
+    left: 10px;
+	}
+#navi .khungquangcao{
+	width:32%;
+	height:260px;
+	display:inline-block;
+	}
+#navi {
+	width:100%;
+	}
+.buttona {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #dbe835;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+	text-decoration:none;
+}
+.buttonb {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #dbe835;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    line-height: 25px;
+	text-decoration:none;
+}
+.taikhoannganhang{
+	width:50%;
+	float:left;
+	}
+.nganhang{float:left;
+padding:10px;
+margin:5px;
+}
+
+.taikhoanthanhtoan{width:80%;
+padding:10px;
+margin:5px;}
+#thanhtoankhinhanhang{
+	width:100%;}
+#noidungthanhtoantructiep{float:left;
+padding:20px;
+margin-top:50px;
+width:50%;}
+#anhthanhtoantienmat{float:left;
+width:45%;}
+#chinhsachthanhtoan h2{
+	color:red;
+	padding:10px;}
+.indam{
+	color:red;
+	font-weight:bold;}
