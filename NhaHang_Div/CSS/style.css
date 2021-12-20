@@ -175,7 +175,10 @@ float:right;}
 	padding:10px 40px;
 	background-color:#ff424e;
 	border-radius:5px;
+	outline:none;
+	border:none;
 	}
+	
 #btnthanhtoan:hover{
 	
 	background-color:#ff0f1e;

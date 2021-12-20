@@ -33,16 +33,17 @@
 <div id="container">
 <div id="Table_01">
 	<div id="Logo">
-		<a href="index.html"> <img src="images/logo2.png" width="157" height="95"></a>
+		<a href="TrangChu.html"> <img src="images/logo2.png" width="157" height="95"></a>
 	</div>
 	<div id="Navigation">
 	<a href="TrangChu.html" >Trang chủ</a>
     <a href="MonNuong.html" >Menu</a>
+
     <a href="khuyenmai.html" >Khuyến Mãi</a>
     
     <a href="vanchuyen.html" >Vận Chuyển</a>
     <a href="contact.html" >Góp Ý</a>
-        
+     <a href="contact.html" >Về Chúng Tôi</a>   
     <a href="giohang.html" class="giohang" id="giohang" >
      <div class="number">1</div>
         <i class="fas fa-shopping-cart"></i><span class="textgiohangs"> Giỏ hàng</span></a>
@@ -66,8 +67,27 @@
     <label id="thongbaohoten"></label>
     <input type="tel" placeholder="Nhập số điện thoại" id="sdt">
     <label id="thongbaosdt"></label>
-    <textarea type="text" placeholder="Nhập địa chỉ" id="diachi"></textarea>
+    <table>
+    <tr>
+    <td>
+    <label class="labelselect" >Chọn Tỉnh </label></td><td><select id="chontinh"> 
+          
+      </select>
+      <td>
+      </tr>
+      <tr>
+      <td>
+      <label class="labelselect">Chọn Huyện</label>
+      </td>
+      <td>
+     <select id="chonhuyen"></select>
+     </td>
+     </tr>
+     </table>
+    <textarea type="text" placeholder="Nhập thôn, xã" id="diachi"></textarea>
      <label id="thongbaodiachi"></label>
+     
+     
     </form>
     <h3>Thông Tin Đơn Hàng</h3>
      <div id="khuvucgiohang">
