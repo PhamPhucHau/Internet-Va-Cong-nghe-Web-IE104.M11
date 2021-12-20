@@ -53,5 +53,6 @@ margin:0;
 div.bgcarousel div.slide div.desc a{
 color:white;
 text-decoration:none;
+cursor:pointer;
 }/* CSS Document */
 
