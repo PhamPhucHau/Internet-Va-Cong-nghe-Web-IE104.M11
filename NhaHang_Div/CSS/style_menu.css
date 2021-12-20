@@ -81,6 +81,7 @@ body {
 	top:0px;
 	width:1200px;
 	height:140px;
+	margin-left: 50px;
 }
 
 #content-Menu {
@@ -90,6 +91,7 @@ body {
 	width:1200px;
 	height:760px;
 	background-color:#fee8d0;
+	margin-left: 50px;
 }
 
 #item {
@@ -103,6 +105,11 @@ body {
 	background-color: green;
 	color: white;
 	border: none;
+	border-radius: 5px;
+}
+
+#item button:hover {
+	background-color:red;
 }
 
 .hinh {
@@ -120,5 +127,6 @@ body {
 	top:900px;
 	width:1200px;
 	height:180px;
+	margin-left: 50px;
 }
 

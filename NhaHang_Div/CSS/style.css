@@ -241,6 +241,10 @@ color:white;
 	margin-top:10px;
 }
 
+.CauChao a:hover {
+	background: red;
+}
+
 .box-container{
   display: flex;
   flex-wrap: wrap;
@@ -296,17 +300,14 @@ color:white;
 
 .special h2 {
 	margin: 20px 0;
-	color:red;
 }
 
 .about {
-	margin:20px 0;
 	font-family: 'Nunito', san-serif;
-	
 }
 
 .about h2 {
-	font-size: 28px;
+	font-size: 30px;
 }
 
 .about-box {
@@ -343,6 +344,7 @@ color:white;
 
 .formDK a:hover {
 	background-color: red;
+	cursor:pointer;
 }
 
 .box-left {
@@ -369,4 +371,55 @@ color:white;
 
 .about-box h3 {
 	font-size:24px;
+}
+
+hr {
+	width:100%;
+	text-align:left;
+	margin-left:0; 
+	background-color:red; 
+	height:1px; 
+	margin:20px 0;
+}
+
+.sukien {
+	margin: 20px 0;
+	font-family: 'Nunito', san-serif;
+}
+
+.sukien h2 {
+	margin: 20px 0;
+}
+
+.sukien-box {
+	background-image:url(../images/background-tet.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	text-align:center;
+	color:white;
+}
+
+.sukien-box p {
+	margin: 20px 0;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.countdown {
+	display:flex;
+	margin-left: 30%;
+	margin-top:30px;
+	padding-bottom: 30px;
+}
+
+.time1 {
+	background-color:white;
+	color:black;
+	padding: 30px;
+	border-radius: 15px;
+	margin: 0 15px;
+}
+
+.map {
+	margin: 20px 0;
 }
