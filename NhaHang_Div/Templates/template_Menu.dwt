@@ -17,7 +17,7 @@
 <!-- Save for Web Slices (template_Menu_CK.psd) -->
 <div id="Table_01">
 	<div id="Link-Menu">
-		<a href="#"><i id="homebutton" class="fas fa-home fa-2x"></i></a><br>
+		<a href="../TrangChu.html"><i id="homebutton" class="fas fa-home fa-2x"></i></a><br>
       <div class="dropdown">
   			<button class="dropbtn"><i class="fas fa-bars"></i></button>
   			<div class="dropdown-content">
@@ -27,8 +27,8 @@
                 <a href="../MonNuong.html">Món Nướng</a>
                 <a href="../MonHap.html">Món Hấp</a>
   			</div>
-		</div>
-	</div>
+	  </div>
+  </div>
 	<div id="Header-Menu">
 		<img src="../images/Header_Menu.jpg" width="1200" height="140" alt="">
 	</div>
@@ -42,6 +42,8 @@
 		<img src="../images/Footer_Menu.jpg" width="1200" height="180" alt="">
 	</div>
 </div>
+<script src="../JS/snoweffect.js"></script>
+<script src="../JS/DatMuaMenu.js"></script>
 <!-- End Save for Web Slices -->
 </body>
 </html>
