@@ -9,16 +9,21 @@
 	margin:10px 0px;
 	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-#thongtinthanhtoan input:focus,textarea{
+#thongtinthanhtoan input:focus,textarea:focus,select{
 	display:block;
 	width:100%;
 	border-radius:5px;
 	padding:12px 20px;
 	border:2px solid blue;
 	margin:10px 0px;
-	 outline: none;
+	outline: none;
 }
-#thongtinthanhtoan input::placeholder{
+#thongtinthanhtoan label{
+color:red;
+	font-size:small;
+	font-style:italic;	
+	}
+#thongtinthanhtoan input::placeholder,textarea::placeholder{
 	font-family:FontNhaHang;	
 	}
 #thongbaohoten{ color:red;}
@@ -60,4 +65,10 @@ button{
 	}
 #tongquanthanhtoan button {
 	padding:auto;
+	}
+#thongtinthanhtoan .labelselect{
+	font-size:large;
+	color:black;
+	padding:2px;
+	margin-right:10px;
 	}
