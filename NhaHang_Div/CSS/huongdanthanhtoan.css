@@ -5,6 +5,9 @@
 	left:250px;
 	top:350px;
 	}
+#gioithieuthanhtoan #khungbanner{
+	z-index:-1;
+	}
 #gioithieuthanhtoan a{
 	position:absolute;
 	left:250px;
@@ -78,3 +81,6 @@ width:45%;}
 	color:red;
 	font-weight:bold;}
 #chinhsachthanhtoan p{font-size:large;}
+.khungquangcao:hover{
+	transition:1s;
+	transform:scale(1.2);}

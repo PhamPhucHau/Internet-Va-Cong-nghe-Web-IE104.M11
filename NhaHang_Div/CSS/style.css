@@ -99,6 +99,7 @@ body{
 	
 }
 .colfooter h3{ text-align:left;margin-left:10px;
+color:white;
 padding:5px; }
 .colfooter ul{
 	list-style:none;
@@ -115,10 +116,14 @@ padding:5px; }
 	text-decoration:none;
 	color:gray;
 	margin-left:10px;
+	
 }
 .colfooter a:hover{
-	color:red;
+	color:white;
 	text-decoration:underline;
+	transform:scale(1.04);
+	transition-duration:0.5s;
+	
 	
 }
 .colfooter img{
@@ -221,7 +226,7 @@ color:white;
 }
 
 .CauChao {
-	width: 50%;
+	width: 49%;
 	font-family: 'Nunito', san-serif;
 	margin-top:10%;
 }
