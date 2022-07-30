@@ -6,7 +6,7 @@ function countdowntimer(){
     const seconds  = document.getElementById("seconds")
     
     const currenttime = new Date();
-    const nextyear = new Date('Febrary 01 2022')
+    const nextyear = new Date('January 23 2023')
 
     const diff = nextyear - currenttime;
 
